@@ -15,7 +15,6 @@ class Controller
         $database = new Database();
         $dbElement = $database->createUserInDatabase($userName,$userPassword);
         echo $dbElement->fetch_field()->userName;
-
     }
 
 
