@@ -14,7 +14,7 @@
 </form>
 
 <?php
-require ("Controller/Controller.php");
+require("Controller/Controller.php");
     $controller = new Controller();
 
     if(isset($_GET['usernameField'])){
